@@ -14,10 +14,8 @@ while True:
     conn.close()
 
     label_normal = json.loads(label_raw)
-    for i in range (len (label_normal['results'])): #creando este bucle consigo que el programa vaya
-        #recorriendo los medicamentos que tienen aspirina de 100 en 100.
+    for i in range (len (label_normal['results'])):
         informacion_medicamento=label_normal['results'][i]
-        print ('ID: ',informacion_medicamento['id'])
         if (informacion_medicamento['openfda']):
             print('Fabricante: ', informacion_medicamento['openfda']['manufacturer_name'][0])
 
