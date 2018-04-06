@@ -3,7 +3,7 @@ import socketserver
 import http.client
 import json
 
-PORT = 2001 #  Puerto donde lanzar el servidor
+PORT = 2002 #  Puerto donde lanzar el servidor
 #el puerto puede ser cualquiera, siempre por encima del 1024
 
 
@@ -12,7 +12,7 @@ def lista_medicamentos():
     headers = {'User-Agent': 'http-client'}
 
     conn = http.client.HTTPSConnection("api.fda.gov")
-    conn.request("GET", "/drug/label.json?limit=10", None, headers)
+    conn.request("GET", "/drug/label.json?limit=11", None, headers)
 
     r1 = conn.getresponse()
     print(r1.status, r1.reason)
