@@ -10,7 +10,7 @@ while True:
 
     r1 = conn.getresponse()
     print(r1.status, r1.reason)
-    label_raw = r1.read().decode("utf-8") #lee la respuesta en json
+    label_raw = r1.read().decode("utf-8")  #lee la respuesta en json
     conn.close()
 
     label_normal = json.loads(label_raw)
