@@ -47,7 +47,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler): #esta clase he
         return
 
 
-# El servidor comienza a aqui
+# El servidor comienza  aqui
 # estableciendo como manejador nuestra propia clase
 Handler = testHTTPRequestHandler
 
