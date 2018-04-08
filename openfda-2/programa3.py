@@ -6,7 +6,7 @@ headers = {'User-Agent': 'http-client'}
 skip_number=0
 while True:
     conn = http.client.HTTPSConnection("api.fda.gov")
-    conn.request("GET", "/drug/label.json?limit=100&skip="+str(skip_number)+'&search=active_ingredient:"acetylsalicylic"', None, headers) 
+    conn.request("GET", "/drug/label.json?limit=100&skip="+str(skip_number)+'&search=active_ingredient:"acetylsalicylic"', None, headers)
 
     r1 = conn.getresponse()
     print(r1.status, r1.reason)
@@ -16,6 +16,8 @@ while True:
     label_normal = json.loads(label_raw)
     for i in range (len (label_normal['results'])):
         informacion_medicamento=label_normal['results'][i]
+        print('ID: ', informacion_medicamento['id']) #imprimo el ID ya que no todos los
+        # medicamentos con acetilsalicilico tienen el nombre del fabricante
         if (informacion_medicamento['openfda']):
             print('Fabricante: ', informacion_medicamento['openfda']['manufacturer_name'][0])
 
