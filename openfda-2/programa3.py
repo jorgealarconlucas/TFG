@@ -6,7 +6,7 @@ headers = {'User-Agent': 'http-client'}
 skip_number=0
 while True:
     conn = http.client.HTTPSConnection("api.fda.gov")
-    conn.request("GET", "/drug/label.json?limit=100&skip="+str(skip_number)+'&search=substance_name:"ASPIRIN"', None, headers) # porcentaje y 22 son comillas
+    conn.request("GET", "/drug/label.json?limit=100&skip="+str(skip_number)+'&search=active_ingredient:"acetylsalicylic"', None, headers) 
 
     r1 = conn.getresponse()
     print(r1.status, r1.reason)
