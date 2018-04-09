@@ -51,7 +51,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler): #esta clase he
 # estableciendo como manejador nuestra propia clase
 Handler = testHTTPRequestHandler
 
-httpd = socketserver.TCPServer(("", PORT), Handler)
+httpd = socketserver.TCPServer(("", PORT), Handler) # esperamos conexiones del cliente
 print("serving at port", PORT)
 try:
     httpd.serve_forever()
