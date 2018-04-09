@@ -12,7 +12,7 @@ label_raw = r1.read().decode("utf-8") #lee el contenido de la respuesta en json.
 conn.close()
 
 label_normal = json.loads(label_raw)  #con el loads consigo transformar el contenido a una forma mas
-#estructurada
+# estructurada
 informacion_medicamento=label_normal['results'][0]
 
 print ('ID: ',informacion_medicamento['id'])
