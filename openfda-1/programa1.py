@@ -17,5 +17,4 @@ informacion_medicamento=label_normal['results'][0]
 
 print ('ID: ',informacion_medicamento['id'])
 print ('Proposito: ',informacion_medicamento['purpose'][0])
-
 print ('Fabricante: ',informacion_medicamento['openfda']['manufacturer_name'][0])
