@@ -3,7 +3,7 @@ import socketserver
 import http.client
 import json
 
-PORT = 2002 #  Puerto donde lanzar el servidor
+PORT = 2003 #  Puerto donde lanzar el servidor
 #el puerto puede ser cualquiera, siempre por encima del 1024
 
 
@@ -43,7 +43,7 @@ class testHTTPRequestHandler(http.server.BaseHTTPRequestHandler): #esta clase he
             content += e+"<br>"  #br significa saltar de linea
         content+="</body></html>"
 
-        self.wfile.write(bytes(content, "utf8"))
+        self.wfile.write(bytes(content, "utf8")) #Sirve para  enviar el mensaje completo
         return
 
 
