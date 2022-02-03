@@ -1,0 +1,23 @@
+Buenos días:
+
+He revisado las gráficas que has enviado. Hay que tener en cuenta que hay unos cuantos parámetros duplicados (aunque tienen distinto nombre, las gráficas son iguales), pero esos no los he tenido en cuenta.
+Hay varios parámetros que gráficamente muestran diferencias entre los grupos 1 y 2, pero evolutivamente pocos cambios, como los parámetros de serie roja (Erit, Hb, Hct, VCM, HCM). También LY-X, Y y Z, y NE-WY.
+Hay muchos parámetros en los que la gráfica muestra además cambios evolutivos, pero algunos me parecen más destacables (marcados en rosa o en amarillo) y coinciden con lo esperado. En general. los parámetros linfocitarios (en amarillo) mejoran con la evolución, y parece que antes en los del grupo de buen pronóstico, probablemente en relación con el desarrollo de inmunidad humoral y celular producida por los linfocitos. Los parámetros de Neutrófilos y los GI, por el contrario, aumentan en los de peor pronóstico, coincidiendo con ser los efectores de la respuesta inflamatoria.
+
+LEU, NEU y NEUp , LIN y LINp, MON, EOS, IG e IG p 
+
+EBL, PLT, VPM, RNL, RPL 
+
+ NEFSC, NESFL 
+
+HFLCA y HFLCP 
+
+LY-WX y LY-WY 
+
+
+AS-L p, RE-L p, RE-L a, AS-L PL y RE-L PL 
+
+
+Lo cierto es que me parecen muy interesantes los resultados, y coinciden bastante con lo que yo esperaba.
+
+Ya me váis diciendo por dónde podemos seguir o si necesitáis alguna cosa más.
